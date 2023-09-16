@@ -1,4 +1,5 @@
 import { BACKEND_SKILLS, FRONTEND_SKILLS } from './tech-skills';
+import Image from 'next/image';
 
 export const PROJECT_CATEGORY = {
   ALL: 'all',
@@ -127,6 +128,18 @@ export const PROJECTS = [
     description: 'Netflix clone using react Js. Proving movies details using TMDB API.',
     repoLink: 'https://github.com/dhavalcode/netflix-clone',
     sourceLink: 'https://netflix-clone-by-dhaval.web.app/',
+    category: [PROJECT_CATEGORY.OPEN_SOURCE],
+  },
+  {
+    imgSrc: '/android-chrome-512x512.png',
+    title: 'Portfolio - test',
+    techIcons: [
+      getSkillByLabel(FRONTEND_SKILLS, 'HTML'),
+      getSkillByLabel(FRONTEND_SKILLS, 'CSS'),
+      getSkillByLabel(FRONTEND_SKILLS, 'React.js'),
+      getSkillByLabel(BACKEND_SKILLS, 'REST Api'),
+    ],
+    description: 'portfolio using react Js.',
     category: [PROJECT_CATEGORY.OPEN_SOURCE],
   },
 ];

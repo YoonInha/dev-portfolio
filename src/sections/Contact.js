@@ -52,7 +52,7 @@ export default function Contact() {
         <LoadAnimate amount={0}>
           <form ref={formRef} onSubmit={sendEmail}>
             <div className="-m-2 flex flex-wrap">
-              <div className="w-full p-2 sm:w-1/2">
+              {/* <div className="w-full p-2 sm:w-1/2">
                 <label htmlFor="name" className="mb:1 text-sm leading-7">
                   Name
                 </label>
@@ -106,7 +106,7 @@ export default function Contact() {
                     </>
                   )}
                 </button>
-              </div>
+              </div> */}
               <div className="mt-4 w-full border-t border-neutral-700/50 p-2 pt-6 text-center dark:border-neutral-300/50">
                 <a
                   href={`mailto:${contactEmail}?subject=Inquiry&body=Hello Dhaval`}
@@ -120,9 +120,9 @@ export default function Contact() {
                     classes="inline-block text-lg mr-1 text-primary-700 dark:text-primary-300"
                     icon="bytesize:location"
                   />
-                  Ahmedabad
+                  Bupyeong-gu
                   <br />
-                  Gujarat, India
+                  Incheon, Republic of Korea
                 </p>
                 <div className="flex w-full justify-center">
                   <SocialLinks />
