@@ -1,3 +1,60 @@
+export const ThreeDimention_SKILLS = [
+  {
+    label: 'Unreal',
+    proficiency: '80%',
+    icon: 'fontisto:unreal-engine',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Unity',
+    proficiency: '80%',
+    icon: 'devicon:unity',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'ThreeJs',
+    proficiency: '80%',
+    icon: 'skill-icons:threejs-dark',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'C#',
+    proficiency: '80%',
+    icon: 'teenyicons:c-sharp-solid',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'C++',
+    proficiency: '80%',
+    icon: 'file-icons:c',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'C',
+    proficiency: '80%',
+    icon: 'devicon-plain:c',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Blender',
+    proficiency: '80%',
+    icon: 'file-icons:blender',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: 'Substance painter & designer',
+    proficiency: '80%',
+    icon: 'ic:twotone-adobe',
+    iconClasses: 'text-3xl',
+  },
+  {
+    label: '3DSMax',
+    proficiency: '80%',
+    icon: 'devicon-plain:3dsmax',
+    iconClasses: 'text-3xl',
+  },
+]
+
 export const FRONTEND_SKILLS = [
   {
     label: 'HTML',
@@ -33,12 +90,6 @@ export const FRONTEND_SKILLS = [
     label: 'Next.js',
     proficiency: '90%',
     icon: 'cib:next-js',
-    iconClasses: 'text-3xl',
-  },
-  {
-    label: 'Gatsby',
-    proficiency: '90%',
-    icon: 'logos:gatsby',
     iconClasses: 'text-3xl',
   },
   {
