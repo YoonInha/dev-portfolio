@@ -43,8 +43,7 @@ export default function Contact() {
         </HeadingAnimate>
         <LoadAnimate amount={0}>
           <p className="mx-auto mt-5 text-base leading-relaxed opacity-80 md:w-1/2">
-            I'm actively looking for any new opportunities, my inbox is always open. Whether you have a question or want
-            to hire me or just want to say hello, I'll try my best to get back to you!
+            새로운 기회와 도전을 지향하고 열정적인 태도를 가지고 있습니다. 또한 네트워킹을 통해 상호 발전을 원하기도 하므로 멋진 제안이나 교류에 대해 열렬히 환영합니다.
           </p>
         </LoadAnimate>
       </div>

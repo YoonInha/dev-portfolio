@@ -6,7 +6,7 @@ import ListItem from '../components/skills/ListItem';
 import HeadingAnimate from '../components/animate/HeadingAnimate';
 import LoadAnimate from '../components/animate/LoadAnimate';
 // mock
-import { BACKEND_DESCRIPTIONS, BACKEND_SKILLS, FRONTEND_DESCRIPTIONS, FRONTEND_SKILLS, ThreeDimention_SKILLS } from '../mock/tech-skills';
+import { BACKEND_DESCRIPTIONS, BACKEND_SKILLS, FRONTEND_DESCRIPTIONS, FRONTEND_SKILLS, ThreeDimention_SKILLS, THREEDIMENTION_DESCRIPTIONS } from '../mock/tech-skills';
 import threeDimensionAnimationData from '../mock/lottie/threedimension.json';
 import codingAnimationData from '../mock/lottie/coding.json';
 import cloudAnimationData from '../mock/lottie/cloudinfra.json';
@@ -49,7 +49,7 @@ export default function Skills() {
               </div>
               {/* Description Part  */}
               <div className="mt-7 w-full space-y-5">
-                {FRONTEND_DESCRIPTIONS.map((paragraph, i) => (
+                {THREEDIMENTION_DESCRIPTIONS.map((paragraph, i) => (
                   <ListItem key={`frontend-des-${i}`} paragraph={paragraph} />
                 ))}
               </div>

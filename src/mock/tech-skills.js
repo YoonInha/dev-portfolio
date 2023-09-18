@@ -259,14 +259,21 @@ export const BACKEND_SKILLS = [
   },
 ];
 
+export const THREEDIMENTION_DESCRIPTIONS = [
+  'Unreal과 Unity 등의 Graphic Rendering Engine을 이용하여 contents 제작 가능',
+  'Graphics의 Render pipeline에 대한 이해를 바탕으로 성능 최적화가 가능',
+  '3D modeling 제작의 전반적인 pipeline에 대해 직접 제작도 가능한 수준으로 숙지하고 있으므로, 최적화 및 modeler들과의 협업에 용이',
+  'Platform 회사에서의 다년간의 경험으로, 다방면의 분야에 대한 기본 지식이 있으므로 협업에 용이하고 필요시에는 간단한 형태의 디버깅 툴 제작 가능',
+  '다양한 프로젝트에 대한 경험을 통해 안정적인 Domain 구조, 올바른 객체지향 구조를 숙지'
+];
+
 export const FRONTEND_DESCRIPTIONS = [
-  'Building complex, interactive user interfaces using React js.',
-  'Building Large scale Web applications using state management library such as redux.',
-  'Building responsive Web Applications.',
+  '간단한 디버깅용 웹앱 제작 가능',
+  '기술 아카이빙용 홈페이지 제작을 통해 지식 축적',
 ];
 
 export const BACKEND_DESCRIPTIONS = [
-  'Building RESTful APIs and GraphQL APIs.',
-  'Worked with various Node.js modules and libraries, such as Express to develop full-stack applications.',
-  'good understanding of database design in technologies such as PostgreSQL and MySQL.',
+  'Test용 local server 제작 가능',
+  'AWS 일부 사용 가능 (S3, Lambda, Cloudfront 등)',
+  '웹용 Graphic SDK 제작 및 배포 경험을 통해, 안정적인 version 관리 경험',
 ];

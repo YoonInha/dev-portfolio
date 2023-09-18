@@ -16,7 +16,7 @@ export const SOCIAL_LINKS = [
 export const HERO_TITLES = ['Inha Yoon', '3D Graphic Developer', 'Game Creation Enthusiast'];
 
 export const aboutParagraph =
-  'Highly motivated and enthusiastic Full Stack Developer with experience in 3D graphics, developing and create game such as Unreal, Unity, graphic apis. ';
+  '3D를 비롯한 기반 기술들을 사용하여 프로덕트를 창조하는 것에 열정적인 개발자. ';
 
 export const contactEmail = 'dchipin@naver.com';
 
