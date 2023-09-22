@@ -8,7 +8,6 @@ import Works from '../sections/Works';
 import Contact from '../sections/Contact';
 // mock
 import { documentTitle } from '../mock/profile';
-
 // ------------------------------------------------
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
       <title>{documentTitle}</title>
     </>
   );
-
   return (
     <MainLayout meta={meta}>
       <HomeHero />

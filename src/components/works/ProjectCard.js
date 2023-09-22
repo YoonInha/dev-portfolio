@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Iconify from '../Iconify';
+import { useRouter } from 'next/router';
 
 // ----------------------------------------------------------------------
 
-export default function ProjectCard({ imgSrc, title, description, repoLink, sourceLink, techIcons }) {
+export default function ProjectCard({ imgSrc, title, description, repoLink, sourceLink, routeLink, techIcons }) {
+  const router = useRouter();
+
+  const handleLinkClick = () => {
+    // 다른 페이지로 이동
+    //{Todo : lottie 메모리 증식 문제 해결 후 router로 교체해야 함}
+    // router.push(sourceLink);
+    window.location.replace(routeLink);
+  };
+
+  useEffect(() => {
+    return function cleanup() {
+      // console.log('clean up');
+    }
+  }, []);
+
   return (
     <div className="relative flex max-w-xs flex-col rounded-lg border border-gray-200 shadow-md dark:border-gray-700 dark:bg-neutral-800/70">
       <img className="h-[150px] w-full rounded-t-lg object-cover" src={imgSrc} alt={title} />
@@ -21,7 +37,7 @@ export default function ProjectCard({ imgSrc, title, description, repoLink, sour
           </div>
         )}
       </div>
-      {(sourceLink !== '' || repoLink !== '') && (
+      {(sourceLink !== '' || repoLink !== '' || routeLink !== '') && (
         <div className="absolute bottom-5 right-5 flex items-center space-x-10">
           {repoLink !== '' && (
             <a
@@ -34,14 +50,19 @@ export default function ProjectCard({ imgSrc, title, description, repoLink, sour
             </a>
           )}
           {sourceLink !== '' && (
-            <a
-              href={sourceLink}
-              target="_blank"
-              rel="noreferrer"
-              className="transform transition-all duration-200 hover:scale-110 hover:text-primary-600 dark:hover:text-primary-300"
-            >
-              <Iconify classes="text-2xl" icon="iconoir:open-new-window" />
-            </a>
+              <a
+                href={sourceLink}
+                target="_blank"
+                rel="noreferrer"
+                className="transform transition-all duration-200 hover:scale-110 hover:text-primary-600 dark:hover:text-primary-300"
+              >
+                <Iconify classes="text-2xl" icon="iconoir:open-new-window" />
+              </a>
+          )}
+          {routeLink !== '' && (
+            <button classes="text-2xl" icon="solar:document-text-linear" onClick={handleLinkClick} className="transform transition-all duration-200 hover:scale-110 hover:text-primary-600 dark:hover:text-primary-300">
+            <Iconify classes="text-2xl" icon="solar:document-text-linear" />
+          </button>
           )}
         </div>
       )}
@@ -57,5 +78,6 @@ ProjectCard.propTypes = {
   description: PropTypes.string,
   repoLink: PropTypes.string,
   sourceLink: PropTypes.string,
+  routeLink : PropTypes.string,
   techIcons: PropTypes.array,
 };

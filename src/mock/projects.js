@@ -38,7 +38,8 @@ export const PROJECTS = [
     ],
     description: `모바일용 3D 호러 어드벤처 게임`,
     repoLink: '',
-    sourceLink: 'https://www.',
+    sourceLink: '',
+    routeLink: '/prgSchoolOfHorror',
     category: [PROJECT_CATEGORY.ALL],
   },
   {
@@ -50,7 +51,8 @@ export const PROJECTS = [
     ],
     description: `메카닉 액션 RPG`,
     repoLink: '',
-    sourceLink: 'https://www.',
+    sourceLink: '',
+    routeLink: '/prgEstelayer',
     category: [PROJECT_CATEGORY.ALL],
   },
   {
@@ -65,7 +67,8 @@ export const PROJECTS = [
     ],
     description: `가구 및 조명의 동적 로딩이 가능한, 실시간 광선추적 홈디자인 시뮬레이터`,
     repoLink: 'https://github.com/YoonInha/LumenStyler',
-    sourceLink: 'https://www.',
+    sourceLink: '',
+    routeLink: '/prgLumenStyler',
     category: [PROJECT_CATEGORY.FULL_STACK],
   },
   // {
@@ -167,6 +170,9 @@ export const PROJECTS = [
       getSkillByLabel(BACKEND_SKILLS, 'Vercel'),
     ],
     description: 'portfolio using react Js.',
+    repoLink: '',
+    sourceLink: '',
+    routeLink: '',
     category: [PROJECT_CATEGORY.OPEN_SOURCE],
   },
 ];
