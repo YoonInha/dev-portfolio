@@ -19,7 +19,7 @@ export default function Header({ darkModeEnabled, toggleMode }) {
         <motion.div
           initial={{ opacity: 0, scale: 0.5, x: -200 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 2, delay: 0.5 }}
+          transition={{ duration: 1, delay: 0.5 }}
         >
           <h3
             className="text-md cursor-pointer font-lato font-semibold tracking-widest md:text-2xl"

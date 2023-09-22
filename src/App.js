@@ -11,9 +11,9 @@ function App() {
       <Routes>
         {/* 웹 서비스 소개 페이지 */}
         <Route path="/" element={<FirstPage />} />
-        {/* <Route path="/schoolofhorror" element={<PrgSchoolOfHorror />} />
+        <Route path="/schoolofhorror" element={<PrgSchoolOfHorror />} />
         <Route path="/estelayer" element={<PrgEstelayer />} />
-        <Route path="/lumenstyler" element={<PrgLumenStyler />} /> */}
+        <Route path="/lumenstyler" element={<PrgLumenStyler />} />
       </Routes>
     </BrowserRouter> 
   );

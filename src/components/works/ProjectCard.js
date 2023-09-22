@@ -11,13 +11,14 @@ export default function ProjectCard({ imgSrc, title, description, repoLink, sour
   const handleLinkClick = () => {
     // 다른 페이지로 이동
     //{Todo : lottie 메모리 증식 문제 해결 후 router로 교체해야 함}
-    // router.push(sourceLink);
-    window.location.replace(routeLink);
+    router.push(routeLink);
+    // window.location.replace(routeLink);
   };
 
   useEffect(() => {
     return function cleanup() {
       // console.log('clean up');
+      window.location.reload();
     }
   }, []);
 
@@ -50,19 +51,19 @@ export default function ProjectCard({ imgSrc, title, description, repoLink, sour
             </a>
           )}
           {sourceLink !== '' && (
-              <a
-                href={sourceLink}
-                target="_blank"
-                rel="noreferrer"
-                className="transform transition-all duration-200 hover:scale-110 hover:text-primary-600 dark:hover:text-primary-300"
-              >
-                <Iconify classes="text-2xl" icon="iconoir:open-new-window" />
-              </a>
+            <a
+              href={sourceLink}
+              target="_blank"
+              rel="noreferrer"
+              className="transform transition-all duration-200 hover:scale-110 hover:text-primary-600 dark:hover:text-primary-300"
+            >
+              <Iconify classes="text-2xl" icon="iconoir:open-new-window" />
+            </a>
           )}
           {routeLink !== '' && (
             <button classes="text-2xl" icon="solar:document-text-linear" onClick={handleLinkClick} className="transform transition-all duration-200 hover:scale-110 hover:text-primary-600 dark:hover:text-primary-300">
-            <Iconify classes="text-2xl" icon="solar:document-text-linear" />
-          </button>
+              <Iconify classes="text-2xl" icon="solar:document-text-linear" />
+            </button>
           )}
         </div>
       )}
