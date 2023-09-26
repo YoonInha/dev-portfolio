@@ -3,7 +3,7 @@ import MainLayout from '../layouts/MainLayout';
 // import Iconify from '../Iconify';
 import { useRouter } from 'next/router';
 import { documentTitle } from '../mock/profile';
-import Skills from '../sections/Skills';
+import ContentForm from '../layouts/ContentForm';
 
 export default function PrgLumenStyler() {
   const router = useRouter();
@@ -19,6 +19,7 @@ export default function PrgLumenStyler() {
   };
   return (
     <MainLayout meta={meta}>
+      <ContentForm contentTitle='Lumen Styler'/>
       <div className="container mx-auto mt-16 text-left sm:mt-10">
         <h2>prgLumenStyler 페이지</h2>
         <p>이 페이지는 prgLumenStyler 페이지입니다.</p>
