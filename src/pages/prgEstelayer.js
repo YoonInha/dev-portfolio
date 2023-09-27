@@ -43,7 +43,9 @@ export default function PrgEstelayer() {
          <br/>
          <img src = "https://drive.google.com/uc?export=view&id=1XAAafM9Zwn8kpG5qjURrL_PnHG8ONH6B" alt='singi' style={{ width: '120%', height: 'auto' }}/>
          <br/>
-         <img src = "https://drive.google.com/uc?export=view&id=162HFZ0j43nLvRQpXf_Laz12DuT4RDFZS" alt='singi' style={{ width: '100%', height: 'auto' }}/>
+         <img src = "https://drive.google.com/uc?export=view&id=13hujURYHaXKPSFfhGN3NhGfDtT92d6u1" alt='singi' style={{ width: '50%', height: 'auto' }}/>
+         <br/>
+         <img src = "https://drive.google.com/uc?export=view&id=1ezIKWnLlj8Gl0-ruDMrfNoEOR_lxIXLU" alt='singi' style={{ width: '50%', height: 'auto' }}/>
          <br/>
         </MarkDownStyle>
         <br/>
