@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import styled from'@emotion/styled';
 import MainLayout from '../layouts/MainLayout';
 // import Iconify from '../Iconify';
 import { useRouter } from 'next/router';
@@ -12,21 +14,41 @@ export default function PrgSchoolOfHorror() {
       <title>{documentTitle}</title>
     </>
   );
-  const handleLinkClick = () => {
-    // 다른 페이지로 이동
-    // router.push('/');
-    window.location.replace('/');
-  };
+
+  const MarkDownStyle = styled.div`
+  font-size: 1rem;
+  line-height: 1.5rem;
+  `;
+
+  const content_01 = `
+  # 학교괴담
+
+    - 개요
+        - 스토리 진행형 호러 어드벤처 게임
+    - 사용 기술, 환경, 언어
+        - 환경 : Unity, SQLite
+        - 언어 : C#
+    - 특징
+        - 2D 비주얼 노벨 파트와 3D 어드벤처 파트로 진행되는 어드벤처 게임
+    - 비고
+        - 서비스 종료
+  `;
   return (
     <MainLayout meta={meta}>
       <ContentForm contentTitle='학교괴담 (하얀 진혼곡)'/>
       <div className="container mx-auto mt-16 text-left sm:mt-10">
-        <h2>PrgSchoolOfHorror 페이지</h2>
-        <p>이 페이지는 PrgSchoolOfHorror 페이지입니다.</p>
-        <button classes="text-2xl" icon="iconoir:open-new-window" onClick={handleLinkClick} className="transform transition-all duration-200 hover:scale-110 hover:text-primary-600 dark:hover:text-primary-300">
-              go to home
-              {/* <Iconify classes="text-2xl" icon="iconoir:open-new-window" /> */}
-        </button>
+        <MarkDownStyle>
+         <ReactMarkdown>{content_01}</ReactMarkdown>
+         <br/>
+        </MarkDownStyle>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       </div>
     </MainLayout>
   );
