@@ -37,10 +37,23 @@ export default function PrgSchoolOfHorror() {
     <MainLayout meta={meta}>
       <ContentForm contentTitle='학교괴담 (하얀 진혼곡)'/>
       <div className="container mx-auto mt-16 text-left sm:mt-10">
+      <img src = "https://drive.google.com/uc?export=view&id=15KJvAFeq8LXTxTdqB569ZQ8kU-Xx-UzF" alt='singi' style={{ width: '120%', height: 'auto' }}/>
         <MarkDownStyle>
          <ReactMarkdown>{content_01}</ReactMarkdown>
          <br/>
+         <br/>
         </MarkDownStyle>
+        <img src = "https://drive.google.com/uc?export=view&id=19x2-VuQ-IKOjcLd0Gkjy88chVDJ_FV3r" alt='image' style={{ width: '70%', height: 'auto' }}/>
+        <p>멀티 엔딩의 시나리오가 존재</p>
+        <br/>
+        <img src = "https://drive.google.com/uc?export=view&id=1DU6rb8CaZ5Nhhc85n67E_Jgm4tc47vWf" alt='image' style={{ width: '70%', height: 'auto' }}/>
+        <img src = "https://drive.google.com/uc?export=view&id=1VX5hNK7bXLVK2MgJq5z-o7D-jbfXj-4Y" alt='image' style={{ width: '70%', height: 'auto' }}/>
+        <p>비주얼 노벨 파트에서 선택지에 의한 분기</p>
+        <br/>
+        <img src = "https://drive.google.com/uc?export=view&id=1EnPBrCunLXxRgH-HtdeB2ESM7EwebsWn" alt='image' style={{ width: '70%', height: 'auto' }}/>
+        <img src = "https://drive.google.com/uc?export=view&id=1CY3DBRUCEFpE_v8BK1d3QbB2K5vqksBm" alt='image' style={{ width: '70%', height: 'auto' }}/>
+        <img src = "https://drive.google.com/uc?export=view&id=1m66W-iQa6t4ZEZ7OQNKgh-586AvkzwYn" alt='image' style={{ width: '70%', height: 'auto' }}/>
+        <p>학교 전체를 배경으로 하는 3D 어드벤처 파트</p>
         <br/>
         <br/>
         <br/>

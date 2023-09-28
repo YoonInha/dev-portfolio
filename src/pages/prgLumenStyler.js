@@ -66,16 +66,16 @@ export default function PrgSchoolOfHorror() {
          <br/>
          <ReactCompareImage leftImage={before_01} rightImage={after_01} />
          <ReactCompareImage leftImage={before_02} rightImage={after_02} />
-         시간대에 따른 시각적 변화
+         <p>시간대에 따른 시각적 변화</p>
          <br/>
-         <img src = "https://drive.google.com/uc?export=view&id=1rF52F2xAMx2N50s24ObCZmMOJ4NCcRJf" alt='singi' style={{ width: '120%', height: 'auto' }}/>
-         BluePrint node
+         <img src = "https://drive.google.com/uc?export=view&id=1rF52F2xAMx2N50s24ObCZmMOJ4NCcRJf" alt='blueprint' style={{ width: '120%', height: 'auto' }}/>
+         <p>BluePrint node</p>
          <br/>
         </MarkDownStyle>
         <br/>
         <br/>
         <YouTube videoId={videoId} opts={youtubeOpts} onEnd={(e)=>{e.target.stopVideo(0);}} />
-        시연영상
+        <p>시연영상</p>
         <br/>
         <br/>
         <br/>
