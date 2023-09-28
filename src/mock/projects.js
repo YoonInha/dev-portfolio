@@ -157,7 +157,7 @@ export const PROJECTS = [
   //   category: [PROJECT_CATEGORY.OPEN_SOURCE],
   // },
   {
-    imgSrc: '/android-chrome-512x512.png',
+    imgSrc: '/overview.jpg',
     title: 'Portfolio page',
     techIcons: [
       getSkillByLabel(FRONTEND_SKILLS, 'Javascript'),

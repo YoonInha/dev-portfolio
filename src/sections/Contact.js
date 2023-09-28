@@ -114,7 +114,10 @@ export default function Contact() {
                   <Iconify classes="text-lg text-primary-700 dark:text-primary-300" icon="clarity:email-solid" />
                   <span>{contactEmail}</span>
                 </a>
-                <p className="my-5 leading-normal">
+                <p>
+                  <br/>
+                </p>
+                {/* <p className="my-5 leading-normal">
                   <Iconify
                     classes="inline-block text-lg mr-1 text-primary-700 dark:text-primary-300"
                     icon="bytesize:location"
@@ -122,7 +125,7 @@ export default function Contact() {
                   Bupyeong-gu
                   <br />
                   Incheon, Republic of Korea
-                </p>
+                </p> */}
                 <div className="flex w-full justify-center">
                   <SocialLinks />
                 </div>

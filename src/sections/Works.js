@@ -46,7 +46,7 @@ export default function Works() {
               id="works-tab"
               className="-mb-px flex max-w-full gap-x-2 border-b border-gray-200 font-medium  hover:cursor-pointer dark:border-gray-700"
             >
-              {TABS.map((tab, i) => (
+              {/* {TABS.map((tab, i) => (
                 <li
                   key={`tab ${i}`}
                   onClick={() => handleOnClick(tab.value)}
@@ -59,7 +59,7 @@ export default function Works() {
                   <Iconify icon={tab.icon} />
                   <span>{tab.label}</span>
                 </li>
-              ))}
+              ))} */}
             </ul>
 
             <div className="mt-10 grid grid-cols-1 gap-5 gap-y-5 md:grid-cols-2 md:gap-y-7 lg:grid-cols-3 lg:px-7 xl:grid-cols-4 xl:px-0">
