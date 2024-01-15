@@ -38,13 +38,14 @@ export default function PrgEstelayer() {
     <MainLayout meta={meta}>
       <ContentForm contentTitle='Estelayer' />
       <div className="container mx-auto mt-16 text-left sm:mt-10">
-      <img src = "https://drive.google.com/uc?export=view&id=12wZKILdB-JNdycqu3oz-ijTrqOzTDNp8" alt='estelayer' style={{ width: '120%', height: 'auto' }}/>
+      {/* <img src = "https://drive.google.com/uc?export=view&id=12wZKILdB-JNdycqu3oz-ijTrqOzTDNp8" alt='estelayer' style={{ width: '120%', height: 'auto' }}/> */}
+      <img src = "/imgsrc/CDNResource/Estelayer/chrome_zkl0qMuY8N.jpg" alt='estelayer' style={{ width: '120%', height: 'auto' }}/>
       <br/>
         <MarkDownStyle>
          <ReactMarkdown>{context_01}</ReactMarkdown>
          <br/>
          <br/>
-         <img src = "https://drive.google.com/uc?export=view&id=1XAAafM9Zwn8kpG5qjURrL_PnHG8ONH6B" alt='singi' style={{ width: '70%', height: 'auto' }}/>
+         {/* <img src = "https://drive.google.com/uc?export=view&id=1XAAafM9Zwn8kpG5qjURrL_PnHG8ONH6B" alt='singi' style={{ width: '70%', height: 'auto' }}/>
          <p>중세 기사 풍 메카닉 디자인</p>
          <br/>
          <img src = "https://drive.google.com/uc?export=view&id=13hujURYHaXKPSFfhGN3NhGfDtT92d6u1" alt='attackmotion' style={{ width: '50%', height: 'auto' }}/>
@@ -54,7 +55,18 @@ export default function PrgEstelayer() {
          <img src = "https://drive.google.com/uc?export=view&id=1ezIKWnLlj8Gl0-ruDMrfNoEOR_lxIXLU" alt='cutscene' style={{ width: '50%', height: 'auto' }}/>
          <p>스토리 컷씬</p>
          <br/>
-         <img src = "https://drive.google.com/uc?export=view&id=109M3aFVvcfX9dKtZFKRIar7M4EGfjYlb" alt='heroine' style={{ width: '70%', height: 'auto' }}/>
+         <img src = "https://drive.google.com/uc?export=view&id=109M3aFVvcfX9dKtZFKRIar7M4EGfjYlb" alt='heroine' style={{ width: '70%', height: 'auto' }}/> */}
+         <img src = "/imgsrc/CDNResource/Estelayer/eeeee.jpg" alt='singi' style={{ width: '70%', height: 'auto' }}/>
+         <p>중세 기사 풍 메카닉 디자인</p>
+         <br/>
+         <img src = "/imgsrc/CDNResource/Estelayer/GOM_k1eIw12Nud.gif" alt='attackmotion' style={{ width: '50%', height: 'auto' }}/>
+         <img src = "/imgsrc/CDNResource/Estelayer/GOM_wha0z8omfD.gif" alt='stepmotion' style={{ width: '50%', height: 'auto' }}/>
+         <p>스타일리쉬한 액션</p>
+         <br/>
+         <img src = "/imgsrc/CDNResource/Estelayer/GOM_LnVRmRf0IJ.gif" alt='cutscene' style={{ width: '50%', height: 'auto' }}/>
+         <p>스토리 컷씬</p>
+         <br/>
+         <img src = "/imgsrc/CDNResource/Estelayer/chrome_wBQCzro1Ig.jpg" alt='heroine' style={{ width: '70%', height: 'auto' }}/>
          <br/>
         </MarkDownStyle>
         <br/>

@@ -29,7 +29,8 @@ const getSkillByLabel = (skills, techLabel) => skills.find(({ label }) => label 
 
 export const PROJECTS = [
   {
-    imgSrc: 'https://drive.google.com/uc?export=view&id=1DU6rb8CaZ5Nhhc85n67E_Jgm4tc47vWf',
+    // imgSrc: 'https://drive.google.com/uc?export=view&id=1DU6rb8CaZ5Nhhc85n67E_Jgm4tc47vWf',
+    imgSrc: '/imgsrc/CDNResource/SchoolOfHorror/Screenshot_20170613-051922.png',
     title: '학교괴담 (하얀 진혼곡)',
     techIcons: [
       getSkillByLabel(ThreeDimention_SKILLS, 'Unity'),
@@ -43,7 +44,8 @@ export const PROJECTS = [
     category: [PROJECT_CATEGORY.ALL],
   },
   {
-    imgSrc: 'https://drive.google.com/uc?export=view&id=1XAAafM9Zwn8kpG5qjURrL_PnHG8ONH6B',
+    // imgSrc: 'https://drive.google.com/uc?export=view&id=1XAAafM9Zwn8kpG5qjURrL_PnHG8ONH6B',
+    imgSrc: '/imgsrc/CDNResource/Estelayer/eeeee.jpg',
     title: 'Estelayer',
     techIcons: [
       getSkillByLabel(ThreeDimention_SKILLS, 'Unreal'),
@@ -56,7 +58,8 @@ export const PROJECTS = [
     category: [PROJECT_CATEGORY.ALL],
   },
   {
-    imgSrc: 'https://drive.google.com/uc?export=view&id=1OaWjiVhO17oxH9v7tkkaGGIQrh54_-Bc',
+    // imgSrc: 'https://drive.google.com/uc?export=view&id=1OaWjiVhO17oxH9v7tkkaGGIQrh54_-Bc',
+    imgSrc: '/imgsrc/CDNResource/LumenStyler/UnrealEditor_y5a0zU51OO.jpg',
     title: 'LumenStyler',
     techIcons: [
       getSkillByLabel(ThreeDimention_SKILLS, 'Unreal'),

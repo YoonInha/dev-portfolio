@@ -48,14 +48,22 @@ export default function PrgSchoolOfHorror() {
         - 현실과의 비교를 위해 자택을 모델로 애셋 제작
         - Aws 서버를 사용하다가 비용 발생 문제로 로컬 서버로 변경
   `;
+  // const before_01 =
+  // "https://drive.google.com/uc?export=view&id=1B4Tc6L7V6iDrY4EcaG3A7r2VUq8o9AgM";
+  // const after_01 =
+  // "https://drive.google.com/uc?export=view&id=1OaWjiVhO17oxH9v7tkkaGGIQrh54_-Bc";
+  // const before_02 =
+  // "https://drive.google.com/uc?export=view&id=1-3XcQ7CyZu6zMpHSF8A5tlkltMnEGGnf";
+  // const after_02 =
+  // "https://drive.google.com/uc?export=view&id=1Mi-MUdWYYSrVy_X0rzTnZBErpGnzu_Oh";
   const before_01 =
-  "https://drive.google.com/uc?export=view&id=1B4Tc6L7V6iDrY4EcaG3A7r2VUq8o9AgM";
+  "/imgsrc/CDNResource/LumenStyler/UnrealEditor_GFi8hviiSx.jpg";
   const after_01 =
-  "https://drive.google.com/uc?export=view&id=1OaWjiVhO17oxH9v7tkkaGGIQrh54_-Bc";
+  "/imgsrc/CDNResource/LumenStyler/UnrealEditor_y5a0zU51OO.jpg";
   const before_02 =
-  "https://drive.google.com/uc?export=view&id=1-3XcQ7CyZu6zMpHSF8A5tlkltMnEGGnf";
+  "/imgsrc/CDNResource/LumenStyler/UnrealEditor_orKPbP0RA1.jpg";
   const after_02 =
-  "https://drive.google.com/uc?export=view&id=1Mi-MUdWYYSrVy_X0rzTnZBErpGnzu_Oh";
+  "/imgsrc/CDNResource/LumenStyler/UnrealEditor_n1NXRXpVJx.jpg";
   const videoId = 'VfN-y2auq3o';
   return (
     <MainLayout meta={meta}>
@@ -68,7 +76,7 @@ export default function PrgSchoolOfHorror() {
          <ReactCompareImage leftImage={before_02} rightImage={after_02} />
          <p>시간대에 따른 시각적 변화</p>
          <br/>
-         <img src = "https://drive.google.com/uc?export=view&id=1rF52F2xAMx2N50s24ObCZmMOJ4NCcRJf" alt='blueprint' style={{ width: '120%', height: 'auto' }}/>
+         <img src = "/imgsrc/CDNResource/LumenStyler/UnrealEditor_iIXtlLcaRA.jpg" alt='blueprint' style={{ width: '120%', height: 'auto' }}/>
          <p>BluePrint node</p>
          <br/>
         </MarkDownStyle>
