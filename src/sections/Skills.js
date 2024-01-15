@@ -7,9 +7,9 @@ import HeadingAnimate from '../components/animate/HeadingAnimate';
 import LoadAnimate from '../components/animate/LoadAnimate';
 // mock
 import { BACKEND_DESCRIPTIONS, BACKEND_SKILLS, FRONTEND_DESCRIPTIONS, FRONTEND_SKILLS, ThreeDimention_SKILLS, THREEDIMENTION_DESCRIPTIONS } from '../mock/tech-skills';
-import threeDimensionAnimationData from '../mock/lottie/threedimension.json';
-import codingAnimationData from '../mock/lottie/coding.json';
-import cloudAnimationData from '../mock/lottie/cloudinfra.json';
+// import threeDimensionAnimationData from '../mock/lottie/threedimension.json';
+// import codingAnimationData from '../mock/lottie/coding.json';
+// import cloudAnimationData from '../mock/lottie/cloudinfra.json';
 
 // ----------------------------------------------------------------------
 
@@ -26,7 +26,7 @@ export default function Skills() {
         <LoadAnimate amount={0}>
           <div className="container mx-auto my-5 flex flex-col items-center p-5 md:flex-row">
             <div className="mb-10 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
-              <AnimatedLottie animationDataFile={threeDimensionAnimationData} />
+              <AnimatedLottie url={'/lottie/threedimension.json'}/>
             </div>
             <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
               <HeadingAnimate>
@@ -60,7 +60,7 @@ export default function Skills() {
         <LoadAnimate amount={0}>
           <div className="container mx-auto my-5 flex flex-col items-center p-5 md:flex-row">
             <div className="mb-10 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
-              <AnimatedLottie animationDataFile={codingAnimationData} />
+              <AnimatedLottie url={'/lottie/coding.json'}/>
             </div>
             <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
               <HeadingAnimate>
@@ -94,7 +94,7 @@ export default function Skills() {
         <LoadAnimate amount={0}>
           <div className="container mx-auto my-5 flex flex-col items-center p-5 md:flex-row">
             <div className="mb-10 w-full md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
-              <AnimatedLottie animationDataFile={cloudAnimationData} />
+              <AnimatedLottie url={'/lottie/cloudinfra.json'}/>
             </div>
             <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
               <HeadingAnimate>

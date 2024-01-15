@@ -19,6 +19,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@iconify/react": "^4.0.0",
+    "axios": "^1.6.2",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.1",
     "framer-motion": "^7.6.5",

@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   env: {
     EMAIL_SERVICE_ID: process.env.EMAIL_SERVICE_ID,
     EMAIL_TEMPLATE_ID: process.env.EMAIL_TEMPLATE_ID,

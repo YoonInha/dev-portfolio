@@ -18,7 +18,7 @@ export default function ProjectCard({ imgSrc, title, description, repoLink, sour
   useEffect(() => {
     return function cleanup() {
       // console.log('clean up');
-      window.location.reload();
+      // window.location.reload();
     }
   }, []);
 
