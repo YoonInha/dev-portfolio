@@ -20,4 +20,8 @@ export const aboutParagraph =
 
 export const contactEmail = 'dchipin@naver.com';
 
-export const documentTitle = 'Hello I am Inha Yoon | 3D Graphic Developer | Game Creation Enthusiast'
+export const documentTitle = 'Hello I am Inha Yoon | 3D Graphic Developer | Game Creation Enthusiast';
+
+export const documentDescription = '3D Graphic Developer and Game Creation Enthusiast specializing in creating innovative products using fundamental technologies.';
+
+export const imageUrl = '/src/assets/images/profileImage.jpg'; // 프로젝트 빌드 후에 접근 가능한 URL로 변경해야 할 수도 있습니다.
