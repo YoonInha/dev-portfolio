@@ -259,6 +259,14 @@ export const BACKEND_SKILLS = [
   },
 ];
 
+export const Electroics = [
+  '전자 회로 설계 및 PCB 디자인',
+  'Graphics의 Render pipeline에 대한 이해를 바탕으로 성능 최적화가 가능',
+  '3D modeling 제작의 전반적인 pipeline에 대해 직접 제작도 가능한 수준으로 숙지하고 있으므로, 최적화 및 modeler들과의 협업에 용이',
+  'Platform 회사에서의 다년간의 경험으로, 다방면의 분야에 대한 기본 지식이 있으므로 협업에 용이하고 필요시에는 간단한 형태의 디버깅 툴 제작 가능',
+  '다양한 프로젝트에 대한 경험을 통해 안정적인 Domain 구조, 올바른 객체지향 구조를 숙지'
+];
+
 export const THREEDIMENTION_DESCRIPTIONS = [
   'Unreal과 Unity 등의 Graphic Rendering Engine을 이용하여 contents 제작 가능',
   'Graphics의 Render pipeline에 대한 이해를 바탕으로 성능 최적화가 가능',

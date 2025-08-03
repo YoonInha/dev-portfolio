@@ -47,9 +47,16 @@ copy env.example .env.local
 # Install dependencies
 npm install
 
+# develop server start
+npm run dev
+
+# build project
+npm run build
+
 # Start a local dev server
 npm start
 ```
+
 
 ## Setup 
 

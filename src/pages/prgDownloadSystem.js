@@ -8,7 +8,7 @@ import { documentTitle } from '../mock/profile';
 import ContentForm from '../layouts/ContentForm';
 import ReactCompareImage from "react-compare-image";
 
-export default function PrgEstelayer() {
+export default function PrgDownloadSystem() {
   const router = useRouter();
   const meta = (
     <>
@@ -22,7 +22,7 @@ export default function PrgEstelayer() {
   `;
 
   const context_01 = `
-  # Estelayer
+  # 파일 다운로드 시스템
     - 개요
     - 사용 기술, 환경, 언어
         - 환경 : Unreal5
@@ -37,10 +37,10 @@ export default function PrgEstelayer() {
 
   return (
     <MainLayout meta={meta}>
-      <ContentForm contentTitle='Estelayer' />
+      <ContentForm contentTitle='Contents Download System' />
       <div className="container mx-auto mt-16 text-left sm:mt-10">
       {/* <img src = "https://drive.google.com/uc?export=view&id=12wZKILdB-JNdycqu3oz-ijTrqOzTDNp8" alt='estelayer' style={{ width: '120%', height: 'auto' }}/> */}
-      <img src = "/imgsrc/CDNResource/Estelayer/chrome_zkl0qMuY8N.jpg" alt='estelayer' style={{ width: '120%', height: 'auto' }}/>
+      <img src = "/imgsrc/CDNResource/DownloadLauncher/mainThumb.jpg" alt='Contents Download System' style={{ width: '120%', height: 'auto' }}/>
       <br/>
         <MarkDownStyle>
          <ReactMarkdown>{context_01}</ReactMarkdown>
