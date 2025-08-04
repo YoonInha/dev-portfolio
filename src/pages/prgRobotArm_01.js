@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import styled from'@emotion/styled';
 import MainLayout from '../layouts/MainLayout';
 // import Iconify from '../Iconify'; // 필요한 경우 주석 해제
@@ -7,6 +8,7 @@ import { useRouter } from 'next/router';
 import { documentTitle } from '../mock/profile';
 import ContentForm from '../layouts/ContentForm';
 import ReactCompareImage from "react-compare-image";
+import MarkdownWrapper from '../layouts/MarkDownWrapper'
 
 export default function PrgRobotArm01() {
   const router = useRouter();
@@ -22,18 +24,53 @@ export default function PrgRobotArm01() {
   `;
 
   const context_01 = `
-  # 로봇 팔
-    - 개요
-    - 사용 기술, 환경, 언어
-        - 환경 : Unreal5
-        - 언어 : C++, Blueprint
-        - 사용 툴 : Blender
-    - 특징
-        - 비극적인 스토리와 반전이 존재하는 메카닉 액션 RPG
-        - AAA급 퀄리티 지향
-    - 비고
-        - 개발 중
+  # Neuro Arm: 지능형 로봇 팔 프로젝트
+  
+  Neuro Arm은 단순한 하드웨어 제어를 넘어서, **AI 기반 학습**과 **ROS2 통신**, 그리고 **Unity 기반 시뮬레이션**을 통합한 로봇 팔 프로젝트입니다.  
+  직접 제작한 3D 프린팅 하드웨어에 센서와 카메라를 장착하여, 실제 물리 환경 속에서 데이터를 수집하고 처리할 수 있도록 설계했습니다.
+  
+  ---
+  
+  ## 프로젝트 구성 요소
+  
+  ### Neuro Arm Core
+  * ROS2 기반 통신 및 시스템 아키텍처
+  * PyTorch 및 OpenCV를 활용한 딥러닝 인터페이스
+  * 카메라 기반 거리 인식 및 영상 처리
+  
+  ### Neuro Arm HW
+  - 5자유도(5 DOF) + 그리퍼 포함 로봇 팔
+  - 2대의 RGB 카메라로 스테레오 뎁스 인식 가능
+  - 3D 프린팅 기반 커스텀 하드웨어 설계
+  
+  ### Neuro Arm Ops
+  - Unity 엔진 기반 가상 환경 시뮬레이션
+  - 실제 하드웨어와 연결되는 원격 제어 및 테스트 환경
+  
+  ---
+  
+  ## 개발 환경 및 기술 스택
+  
+  | 분류 | 기술 |
+  |------|------|
+  | 하드웨어 | Arduino, 커스텀 보드, 3D 프린터 |
+  | 언어 | C, C++, C#, Python |
+  | 통신 및 제어 | ROS2, Serial, Bluetooth |
+  | 시뮬레이션 | Unity (C#) |
+  | AI/비전 | OpenCV, PyTorch |
+  
+  ---
+  
+  ## 향후 계획
+  
+  - 강화학습 기반 로봇 행동 최적화 적용
+  - Depth Camera 대체용 스테레오 뎁스 맵 정밀화
+  - Unity 시뮬레이터 ↔ ROS2 연동 가속화
+  
+  > “이 프로젝트는 단순한 로봇 제어가 아니라,  
+  > **AI + Vision + Simulation**이 융합된 지능형 물리 AI의 출발점입니다.”
   `;
+  
 
   return (
     <MainLayout meta={meta}>
@@ -43,7 +80,11 @@ export default function PrgRobotArm01() {
       <img src = "/imgsrc/CDNResource/Estelayer/chrome_zkl0qMuY8N.jpg" alt='estelayer' style={{ width: '120%', height: 'auto' }}/>
       <br/>
         <MarkDownStyle>
-         <ReactMarkdown>{context_01}</ReactMarkdown>
+        <MarkdownWrapper>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            {context_01}
+          </ReactMarkdown>
+        </MarkdownWrapper>
          <br/>
          <br/>
          {/* <img src = "https://drive.google.com/uc?export=view&id=1XAAafM9Zwn8kpG5qjURrL_PnHG8ONH6B" alt='singi' style={{ width: '70%', height: 'auto' }}/>
