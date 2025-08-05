@@ -110,7 +110,7 @@ export const PROJECTS = [
   },
   {
     // imgSrc: 'https://drive.google.com/uc?export=view&id=1OaWjiVhO17oxH9v7tkkaGGIQrh54_-Bc',
-    imgSrc: '/imgsrc/CDNResource/RobotArm_01/mainThumb.jpg',
+    imgSrc: '/imgsrc/CDNResource/RobotArm_01/robot_01.jpg',
     title: 'Robot arm',
     techIcons: [
       getSkillByLabel(ThreeDimention_SKILLS, 'Unreal'),

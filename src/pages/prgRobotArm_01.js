@@ -74,10 +74,10 @@ export default function PrgRobotArm01() {
 
   return (
     <MainLayout meta={meta}>
-      <ContentForm contentTitle='File Download System' />
+      <ContentForm contentTitle='Neuro Arm Robot' />
       <div className="container mx-auto mt-16 text-left sm:mt-10">
       {/* <img src = "https://drive.google.com/uc?export=view&id=12wZKILdB-JNdycqu3oz-ijTrqOzTDNp8" alt='estelayer' style={{ width: '120%', height: 'auto' }}/> */}
-      <img src = "/imgsrc/CDNResource/Estelayer/chrome_zkl0qMuY8N.jpg" alt='estelayer' style={{ width: '120%', height: 'auto' }}/>
+      <img src = "/imgsrc/CDNResource/RobotArm_01/robot_01.jpg" alt='estelayer' style={{ width: '120%', height: 'auto' }}/>
       <br/>
         <MarkDownStyle>
         <MarkdownWrapper>
@@ -98,18 +98,19 @@ export default function PrgRobotArm01() {
          <p>스토리 컷씬</p>
          <br/>
          <img src = "https://drive.google.com/uc?export=view&id=109M3aFVvcfX9dKtZFKRIar7M4EGfjYlb" alt='heroine' style={{ width: '70%', height: 'auto' }}/> */}
-         <img src = "/imgsrc/CDNResource/Estelayer/eeeee.jpg" alt='singi' style={{ width: '70%', height: 'auto' }}/>
-         <p>중세 기사 풍 메카닉 디자인</p>
+         <img src = "/imgsrc/CDNResource/RobotArm_01/robot_02.jpg" alt='singi' style={{ width: '70%', height: 'auto' }}/>
+      
+         <p>Process unit and regulator and servo & Sensor's interface</p>
+
+         <img src = "/imgsrc/CDNResource/RobotArm_01/robotAnim_01.gif" alt='singi' style={{ width: '70%', height: 'auto' }}/>
+         <p>Robot Arm Movement</p>
          <br/>
-         <img src = "/imgsrc/CDNResource/Estelayer/GOM_k1eIw12Nud.gif" alt='attackmotion' style={{ width: '50%', height: 'auto' }}/>
-         <img src = "/imgsrc/CDNResource/Estelayer/GOM_wha0z8omfD.gif" alt='stepmotion' style={{ width: '50%', height: 'auto' }}/>
-         <p>스타일리쉬한 액션</p>
+         <img src = "/imgsrc/CDNResource/RobotArm_01/robot_03.jpg" alt='attackmotion' style={{ width: '50%', height: 'auto' }}/>
+         <p>Two RGB camera for computer visioning & depth map</p>
          <br/>
-         <img src = "/imgsrc/CDNResource/Estelayer/GOM_LnVRmRf0IJ.gif" alt='cutscene' style={{ width: '50%', height: 'auto' }}/>
-         <p>스토리 컷씬</p>
-         <br/>
-         <img src = "/imgsrc/CDNResource/Estelayer/chrome_wBQCzro1Ig.jpg" alt='heroine' style={{ width: '70%', height: 'auto' }}/>
-         <br/>
+
+         <img src = "/imgsrc/CDNResource/RobotArm_01/robotAnim_02.gif" alt='singi' style={{ width: '70%', height: 'auto' }}/>
+         <p>Detph map from two RGB camera </p>
         </MarkDownStyle>
         <br/>
         <br/>

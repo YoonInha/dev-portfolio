@@ -16,7 +16,7 @@ export const SOCIAL_LINKS = [
 export const HERO_TITLES = ['Inha Yoon', '3D Graphic Developer', 'Robotronic Engineer',  'Creation Enthusiast'];
 
 export const aboutParagraph =
-  '3D를 비롯한 기반 기술들을 사용하여 프로덕트를 창조하는 것에 열정적인 개발자. ';
+  '게임 엔진 기반 콘텐츠와 하드웨어 제어, AI 기술을 넘나들며, Physical AI 개발자로 나아가는 융합형 개발자입니다.';
 
 export const contactEmail = 'dchipin@naver.com';
 
