@@ -24,7 +24,7 @@ export default function ProjectCard({ imgSrc, title, description, repoLink, sour
 
   return (
     <div className="relative flex max-w-xs flex-col rounded-lg border border-gray-200 shadow-md dark:border-gray-700 dark:bg-neutral-800/70">
-      <img className="h-[150px] w-full rounded-t-lg object-cover" src={imgSrc} alt={title} />
+      <img className="h-[220px] w-full rounded-t-lg object-cover" src={imgSrc} alt={title} />
 
       <div className="p-5">
         <h1 className="mb-2 text-lg font-semibold  text-gray-900 dark:text-white">{title}</h1>

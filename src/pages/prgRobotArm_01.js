@@ -69,6 +69,9 @@ export default function PrgRobotArm01() {
   
   > “이 프로젝트는 단순한 로봇 제어가 아니라,  
   > **AI + Vision + Simulation**이 융합된 지능형 물리 AI의 출발점입니다.”
+
+  ![Robot Arm Movement]( /imgsrc/CDNResource/RobotArm_01/robotAnim_01.gif )
+  **Robot Arm Movement**
   `;
   
 

@@ -26,7 +26,7 @@ export default function PrgRobotArm01() {
   const context_01 = `
   # 나무늘보 (sloth): 지능형 주행 로봇 프로젝트
   
-  나무늘보(sloth)는 ROS2의 turtle bot을 일부 대체하는 기본 주행 봇 플랫폼 프로젝트입니다.
+  * 나무늘보(sloth)는 ROS2의 turtle bot을 일부 대체하는 기본 주행 봇 플랫폼 프로젝트입니다.
   ---
   
   ## 프로젝트 구성 요소
@@ -38,7 +38,7 @@ export default function PrgRobotArm01() {
   
   ### Sloth HW
   - 바퀴를 이용한 주행 로봇 (+ 로봇 팔 or 집게 예정)
-  - 중추 신경에 해당하는 
+  - 이미지 전송 각 운동 모듈 제어 등의 중추 신경에 해당하는 processor unit은 lastberry pi 사용, 모터 제어나 단순 센서 정보 수집 등의 말초 신경에 해당하는 processor unit은 AVR 계열 사용
   - 1대의 RGB 카메라 사용 (추후 depth camera 적용 예정)
   - 포맥스와 알루미늄을 이용한 mock up 제작 (3D print로 대체 예정)
   
@@ -52,10 +52,10 @@ export default function PrgRobotArm01() {
   
   | 분류 | 기술 |
   |------|------|
-  | 하드웨어 | Arduino, 커스텀 보드, 3D 프린터 |
+  | 하드웨어 | Raspberry Pi4, ATmega128 board (or Arduino), 커스텀 보드, 3D 프린터 |
   | 언어 | C, C++, C#, Python |
-  | 통신 및 제어 | ROS2, Serial, Bluetooth |
-  | 시뮬레이션 | Unity (C#) |
+  | 통신 및 제어 | ROS2, Serial(Uart), Bluetooth |
+  | 시뮬레이션, 수동 컨트롤 | Unity (C#) |
   | AI/비전 | OpenCV, PyTorch |
   
   ---
