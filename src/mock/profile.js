@@ -1,11 +1,15 @@
 export const SOCIAL_LINKS = [
   {
-    link: 'https://www.facebook.com/inha.yoon.75/',
-    icon: 'akar-icons:facebook-fill',
+    link: 'https://www.linkedin.com/in/%EC%9D%B8%ED%95%98-%EC%9C%A4-b857aa298/',
+    icon: 'simple-icons:linkedin',
   },
   {
     link: 'https://github.com/yooninha',
     icon: 'akar-icons:github-fill',
+  },
+  {
+    link: 'https://www.facebook.com/inha.yoon.75/',
+    icon: 'akar-icons:facebook-fill',
   },
   {
     link: 'https://dreampulse-dev.tistory.com/',
