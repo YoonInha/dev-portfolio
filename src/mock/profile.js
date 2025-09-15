@@ -17,7 +17,7 @@ export const SOCIAL_LINKS = [
   },
 ];
 
-export const HERO_TITLES = ['Inha Yoon', '3D Graphic Developer', 'Robotronic Engineer',  'Creation Enthusiast'];
+export const HERO_TITLES = ['Inha Yoon', '3D Graphic Developer', 'Robotronic Engineer', 'AI Engineer', 'Creation Enthusiast'];
 
 export const aboutParagraph =
   '게임 엔진 기반 콘텐츠와 하드웨어 제어, AI 기술을 넘나들며, Physical AI 개발자로 나아가는 융합형 개발자입니다.';
