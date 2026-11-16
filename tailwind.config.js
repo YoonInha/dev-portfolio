@@ -11,6 +11,20 @@ module.exports = {
         ...defaultTheme.screens,
       },
       colors: {
+        // Engine-editor palette. robo = Robotics accent, sel = selection / Game & Software accent.
+        editor: {
+          bg: '#0f1113',
+          view: '#0b0c0e',
+          panel: '#17191c',
+          panel2: '#1e2125',
+          line: '#2c3036',
+          ink: '#d5d9df',
+          muted: '#8a919c',
+          sel: '#3d8bfd',
+          robo: '#f5a524',
+          x: '#e5484d',
+          y: '#46a758',
+        },
         neutral: colors.slate,
         primary: {
           50: '#f0f9ff',
@@ -26,6 +40,8 @@ module.exports = {
         },
       },
       fontFamily: {
+        sans: ['Inter', '"IBM Plex Sans KR"', '"Apple SD Gothic Neo"', '"Malgun Gothic"', ...defaultTheme.fontFamily.sans],
+        mono: ['"JetBrains Mono"', ...defaultTheme.fontFamily.mono],
         lato: ['Lato', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
       },
